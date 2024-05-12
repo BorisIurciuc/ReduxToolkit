@@ -17,16 +17,14 @@ export default function Carts(): JSX.Element {
 			<div>
 				{carts.map(cart => (
 					<li key={cart.id}>
-						<p>{cart.id}</p>
+						<p>{cart.userId}</p>
 						<ul>
 							{cart.products.map(product => (
-								<li key={product.id}>
-									<p>{product.title}</p>
-									<p>{product.price}</p>
+								<li key={product.productId}>
+									<p>quantity: {product.quantity}</p>
 								</li>
 							))}
 						</ul>
-						<p>{cart.total}</p>
 					</li>
 				))}
 			</div>

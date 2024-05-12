@@ -1,12 +1,10 @@
 export default interface Cart {
 	id: number
+	userId: number
 	products: [
 		{
-			id: number
-			title: string
-			price: number
-			thumbnail: string
+			productId: number
+			quantity: number
 		}
 	]
-	total: number
 }
