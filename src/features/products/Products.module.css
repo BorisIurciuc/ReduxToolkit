@@ -9,7 +9,6 @@
 
 .containerProduct li{
     width: 350px;
-
     padding: 2px;
     margin: 2px;
     background-color: lightgrey;
@@ -23,6 +22,7 @@
 .containerProduct li img{
     border: solid 0.5px black;
     margin-top: 5px;
+    box-shadow: 20px;
 }
 .containerProduct li button{
     border: solid 0.5px black;

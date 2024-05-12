@@ -13,7 +13,7 @@ export default function ProductsList(): JSX.Element {
 
 	return (
 		<div>
-			<h1>Product List</h1>
+			<h1>Product List for you</h1>
 			<div className={style.containerProduct}>
 				{products.map(product => (
 					<li key={product.id}>
